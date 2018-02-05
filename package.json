@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/naked-mole-rat/gopher-site/issues"
   },
-  "homepage": "https://github.com/naked-mole-rat/gopher-site#readme"
+  "homepage": "https://github.com/naked-mole-rat/gopher-site#readme",
+  "dependencies": {
+    "gopher-protocol": "git+https://github.com/naked-mole-rat/gopher-protocol.git",
+    "koa": "^2.4.1",
+    "koa-router": "^7.4.0"
+  }
 }
